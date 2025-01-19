@@ -8,8 +8,8 @@ export default {
     extend: {},
   },
   plugins: [],
-  corePlugins: {
-    preflight: false, // Disable preflight
-  },
+  // corePlugins: {
+  //   preflight: false, // Disable preflight
+  // },
 }
 
