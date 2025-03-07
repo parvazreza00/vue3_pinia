@@ -4,6 +4,7 @@ import TemplateSyntax from "./components/TemplateSyntax.vue";
 import ComputedComponent from "./components/ComputedComponent.vue";
 import StyleBinding from "./components/StyleBinding.vue";
 import ConditionalRendering from "./components/ConditionalRendering.vue";
+import EventHandelers from "./components/EventHandelers.vue";
 </script>
 
 <template>
@@ -11,16 +12,9 @@ import ConditionalRendering from "./components/ConditionalRendering.vue";
     <div>
       <h1>App Component</h1>
     </div>
-    <div>      
-      <ComputedComponent/>
-    </div>
-    <div>
-      <Counter/>
-    </div>
-    <div>
-      <StyleBinding/>
-    </div>    
-      <ConditionalRendering/>
+    <EventHandelers></EventHandelers>
+    
+      
     
   </section>
 </template>
